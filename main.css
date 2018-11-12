@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'fixedsys';
+    src: url('fixedsys.ttf') format('truetype'),
+    url('fixedsys.woff') format('woff');
+  } 
+
+* {
+    margin: 0;
+    font-family: 'fixedsys', 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: #271d26;
+    color: white;
+    overflow: hidden;
+}
+
+header, nav, #chat-input {
+    height: 20px;
+}
+
+main {
+    height: calc(100vh - 62px);
+    width: calc(100vw + 17px);
+}
+
+header, nav {
+    background-color: #4d394b;
+}
+
+ul {
+    padding-inline-start: 0px;
+    scroll-snap-destination: bottom;
+}
+
+li {
+    list-style-type: none;
+}
+
+#chat-log {
+    height: calc(100vh - 62px);
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scroll-snap-destination: bottom;
+}
+
+#chat-log #end {
+    scroll-snap-destination: bottom;
+}
+
+#chat-log div {
+    white-space: pre-wrap;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 3px;
+}
+
+#input {
+    width: calc(100% - 10px);
+}

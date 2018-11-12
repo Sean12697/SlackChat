@@ -1,0 +1,29 @@
+{
+  "name": "SlackChat",
+  "version": "1.0.0",
+  "description": "Hack for American Express Challenge at Great Uni Hack 2018",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sean12697/SlackChat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sean12697/SlackChat/issues"
+  },
+  "homepage": "https://github.com/Sean12697/SlackChat#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.2",
+    "body-parser": "^1.18.3",
+    "eslint": "^5.9.0",
+    "express": "^4.16.4",
+    "mongoose": "^5.3.11",
+    "socket.io": "^2.1.1"
+  }
+}
