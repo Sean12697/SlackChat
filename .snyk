@@ -12,3 +12,21 @@ patch:
         patched: '2019-10-24T23:43:53.408Z'
     - mongoose > async > lodash:
         patched: '2019-10-24T23:43:53.408Z'
+    - snyk > @snyk/dep-graph > lodash:
+        patched: '2019-10-29T23:21:02.312Z'
+    - snyk > @snyk/dep-graph > graphlib > lodash:
+        patched: '2019-10-29T23:21:02.312Z'
+    - snyk > snyk-nuget-plugin > dotnet-deps-parser > lodash:
+        patched: '2019-10-29T23:21:02.312Z'
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/dep-graph > lodash:
+        patched: '2019-10-29T23:21:02.312Z'
+    - snyk > snyk-nodejs-lockfile-parser > graphlib > lodash:
+        patched: '2019-10-29T23:21:02.312Z'
+    - snyk > snyk-go-plugin > graphlib > lodash:
+        patched: '2019-10-29T23:21:02.312Z'
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/cocoapods-lockfile-parser > @snyk/dep-graph > lodash:
+        patched: '2019-10-29T23:21:02.312Z'
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/dep-graph > graphlib > lodash:
+        patched: '2019-10-29T23:21:02.312Z'
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/cocoapods-lockfile-parser > @snyk/dep-graph > graphlib > lodash:
+        patched: '2019-10-29T23:21:02.312Z'
