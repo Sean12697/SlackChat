@@ -27,7 +27,7 @@
     "express": "^4.16.4",
     "mongoose": "^5.7.5",
     "socket.io": "^2.1.1",
-    "snyk": "^1.238.0"
+    "snyk": "^1.258.2"
   },
   "snyk": true
 }
